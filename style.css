@@ -1,0 +1,136 @@
+* {
+    font-family: 'Times New Roman', Times, serif;
+    
+}
+body{
+
+    margin: 0 20px;
+}
+ @media screen and (min-width: 1000px){
+    body{
+        margin: 0 150px;} 
+}
+@media screen and (max-width: 480px){
+        div.header h1{
+            font-size: 14px;
+            margin-top: 10px;
+        }
+        div.header h3{
+            font-size: 12px;
+            margin-top: 10px;
+        }
+        div.contact{
+            font-size: 11px;
+            margin-top: 10px;
+        }   
+        div.summary{
+            text-align: justify;
+        }
+        div.job{
+            display: flex;
+            flex-direction: column;
+            padding-bottom: 10px;
+        }
+        ul.cormart{
+            text-align: justify;
+        }
+        ul.cormartaccomplishment{
+            text-align: justify;
+        }
+        div.masterjob{
+            display: flex;
+            flex-direction: column;
+            padding-bottom: 10px;
+        }
+        ul.NYSCaccomplishment{
+            text-align: justify;
+        }
+        ul.masters{
+            text-align: justify;
+        }
+        ul.mastersaccomplishment{
+            text-align: justify;
+        }
+        ul.cert{
+            text-align: justify;
+        }
+        ul.skills{
+            text-align: justify;
+        }
+        
+}
+
+div.header{
+    text-align: center;
+    padding: auto;
+}
+.header h1{
+    margin-bottom: 0px;
+}
+.header h3{
+    margin-top: 0px;
+    margin-bottom: 0px;
+}
+div.contact {
+    display: flex;
+    list-style: none;
+    justify-content: center;
+}
+ a {
+    text-decoration: none;
+    margin-top: 0;
+    margin-bottom: 20px;
+    margin-right: 10px;
+    color: rgb(23, 179, 218);
+    
+}
+div.summary h4{
+     margin-top: 30px;
+}
+h4{
+    color: rgb(23, 179, 218);
+    border-bottom: solid black;
+    font-size: 16px;
+}
+div.job{
+    display: flex;
+    justify-content: space-between;
+}
+
+div.jobtitle{
+    list-style: none;
+    display: flex;
+    justify-content: space-between;
+    font-style: italic;
+    font-weight: bold;
+}
+
+div.schooldate{
+    display: flex;
+    justify-content: space-between;
+    margin-left: 0px;
+}
+p2{
+    font-style: italic;
+    
+}
+p3{
+    font-style: italic;
+}
+div.NYSC{
+    display: flex;
+    justify-content: space-between;
+    font-style: italic;
+    font-weight: bold;
+    
+}
+div.masterjob{
+    display: flex;
+    justify-content: space-between;
+
+}
+div.footer{
+    text-align: center;
+    font-style: italic;
+    color: grey;
+}
